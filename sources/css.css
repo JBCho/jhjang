@@ -1,9 +1,11 @@
 <style type="text/css">
 
+
 @font-face {
     font-family: "Blacksword";
-    src: url("../jhjang/sources/Blacksword.ttf") format("truetype");
+    src: url("https://github.com/JBCho/jhjang/blob/master/sources/Blacksword.otf") format("opentype");
 }
+
 
 body {
     background-color:black;
