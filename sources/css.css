@@ -1,0 +1,81 @@
+<style type="text/css">
+
+@font-face {
+    font-family: "Blacksword";
+    src: url("sources/Blacksword.otf") format("opentype");
+}
+
+body {
+    background-color:black;
+}
+
+#main {
+    
+    margin-top: 10vh;
+    height: 80vh;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#name {
+    font-size: 72px;
+    color:white;
+    font-family: Blacksword;
+    
+    margin-bottom: 100px;
+}
+
+.links {
+    color: white;
+    font-style:italic;
+    margin-top: 30px;
+    border-bottom: 1px solid white;
+    
+    height: 40px;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.links .image {
+    width: 50px;
+    
+}
+
+.links .linkname {
+    width: 150px;
+    text-align: center;
+}
+
+#bottomtext {
+    color: white;
+    font-family: 'Blacksword';
+    font-size: 56px;
+    
+    margin-top: 80px;
+}
+
+@media (max-width: 1024px) {
+
+    #name {
+        font-size: 112px;
+    }
+    
+    .links {
+        width : 400px;
+        height: 80px;
+        
+        border-bottom: 3px solid white;
+    }
+    
+    .links .image {
+        height: 100px;
+        width: 100px;
+    }
+    
+}
