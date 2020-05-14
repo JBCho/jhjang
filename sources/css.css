@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: "Blacksword";
-    src: url("/Blacksword.ttf") format("truetype");
+    src: url("./sources/Blacksword.ttf") format("opentype");
 }
 
 body {
